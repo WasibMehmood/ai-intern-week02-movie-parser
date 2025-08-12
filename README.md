@@ -14,17 +14,22 @@ Reports include:
    cd movies-parser
 
 ## Activate Virtual Env
-movie-gen\Scripts\
-
+```bash
+movie-gen\Scripts\Activate
+```
 ### Install Necessary Dependencies
+```bash
 pip install pandas
 pip install pandas openpyxl
-
+```
 ### Set Movie Path
+```bash
 set MOVIES_FILE_PATH = Moviesdataset.xlsx
-
+```
 # Run the Output
+```bash
 - python movies_parser.py -r 1903
 - python movies_parser.py -g Comedy
 - python movies_parser.py -v 1892
 - python movies_parser.py -r 1903 -g Comedy -v 1895
+```
